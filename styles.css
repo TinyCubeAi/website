@@ -9,12 +9,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
 
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 main {
-    margin-top: -45%;
+    margin-top: 25%;
     text-align: center;
     display: flex;
     flex-direction: column;
