@@ -4,25 +4,29 @@ body {
     background-color: #08090A;
     color: white;
 
-    font-size: 1.2rem;
-    font-weight: 500;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
 
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 main {
-    margin-top: 25%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-p {
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+.main-text {
     margin-bottom: 12px;
-    margin-top: 0;
 }
 
 .center-logo {
@@ -33,4 +37,91 @@ p {
     background-size: cover; /* Resize the background image to cover the entire container */
 
     margin-bottom: 35px;
+}
+
+.project-list {
+    margin-top: 48px;
+    max-width: 450px;
+}
+
+.project-list > * + * {
+    margin-top: 32px;
+}
+
+.project-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.cube-container {
+    width: 50px;
+    height: 50px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+} 
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    text-align: left;
+    max-width: 380px;
+}
+
+.project-details-header {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.project-subtitle {
+    font-size: 20px;
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid white;
+    margin-top: 3px;
+}
+
+.project-description > p {
+    font-size: 16px;
+    color: #DECFAC;
+}
+
+.project-links {
+    margin-top: 8px;
+    font-size: 12px;
+    width: fit-content;
+    color: #8B8F97;
+    display: flex;
+    align-items: center;
+}
+
+.project-links > * + * {
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid #8B8F97;
+}
+
+.project-link {
+    display: flex;
+    align-items: center;
+}
+
+.project-link > a {
+    margin-left: 4px;
+    color: #8B8F97;
+    text-decoration: none;
+}
+.project-link > a:hover {
+    text-decoration: underline;
+}
+
+.project-link-icon {
+    height: 12px;
+    width: 12px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
