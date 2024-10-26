@@ -126,3 +126,87 @@ h1, h2, h3, h4, h5, p {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
+
+/* Media Queries for Mobile Devices */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .center-logo {
+        width: 150px;
+        height: 48px;
+        margin-bottom: 25px;
+    }
+
+    .project-list {
+        margin-top: 32px;
+        max-width: 100%;
+    }
+
+    .project-list > * + * {
+        margin-top: 24px;
+    }
+
+    .cube-container {
+        width: 40px;
+        height: 40px;
+    }
+
+    .project-details {
+        margin-left: 16px;
+    }
+
+    .project-details-header {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+    .project-subtitle {
+        font-size: 16px;
+        margin-left: 6px;
+        padding-left: 6px;
+    }
+
+    .project-description > p {
+        font-size: 14px;
+    }
+
+    .project-links {
+        font-size: 10px;
+    }
+
+    .project-link-icon {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    .main-text {
+        max-width: 300px;
+    }
+
+    .center-logo {
+        width: 120px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .project-details {
+        margin-top: 12px;
+    }
+
+    .cube-container {
+        width: 30px;
+        height: 30px;
+    }
+}
