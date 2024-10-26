@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #08090A;
+    color: white;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin-top: -45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+.center-logo {
+    width: 139px;
+    height: 45px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+    margin-bottom: 35px;
+}
